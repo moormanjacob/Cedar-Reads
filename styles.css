@@ -1,0 +1,134 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.book-of-the-month-container {
+  padding: 2.5rem 9%;
+}
+
+.book-of-the-month-container img {
+  width: auto;
+  height: 25rem;
+}
+
+.book-rec-container {
+  padding: 2.5rem 9%;
+}
+
+.card {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in;
+  animation-fill-mode: forwards;
+  box-shadow: .125rem .188rem rgb(87, 107, 128);
+  border-radius: .625rem;
+  background-color: rgb(228, 228, 228);
+  padding: 5%;
+}
+
+.card img {
+  border-radius: 1.875 px;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.card-button {
+  margin: auto;
+  border:none;
+  border-radius: .625rem;
+  background-color: rgb(0, 56, 101);
+  padding: .8rem 15%;
+  color: white;
+}
+
+.card-button:hover {
+  background-color:rgb(0, 102, 185);
+}
+
+.card-title {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  font-weight: 700;
+}
+
+.nav-bottom-bar {
+  background-color:rgb(252, 183, 22);
+  width: 100%;
+  height: .5rem;
+}
+
+.nav-brand:hover {
+  color: rgb(252, 183, 22);
+}
+
+.nav-item {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 600;
+  font-size: 1.375rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-link:hover {
+  color: rgb(252, 183, 22);
+}
+
+.navbar {
+  background-color: rgb(0, 56, 101);
+}
+
+.navbar-brand {
+  pointer-events: auto;
+  color: rgb(252, 183, 22);
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.navbar-brand img {
+  margin: 0rem .6rem 0rem 0rem;
+  height: 3.125rem;
+}
+
+footer {
+  bottom: 0;
+  background-color: rgb(0,56,101);
+  padding: 1.25rem;
+  width: 100%;
+  height: 4rem;
+  color: white;
+  text-align: center;
+}
+
+.review-content{
+  display: flex;
+  padding: .75rem;
+  
+}
+
+.row {
+  padding: .625rem;
+}
+
+.text-overflow-clamp {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  width: 100%;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
